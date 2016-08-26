@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title> Trashfinder </title>
+<style>
+	audio{
+		display:none;
+	}
+	}
+
+	h1{
+		font-family:EB Garamond;
+		color:#000000;
+		padding:10px;
+	}
+	
+	p{
+		font-family:EB Garamond MS;
+		color:#000000;
+		padding:1em;
+	}
+	
+	header{
+		background:#737373;
+		text-align:center;
+	}
+	
+	nav{
+		background:#737373;
+		color:black;
+		width:235px;
+		float:left;
+		height: 95%;
+		position: fixed;
+		overflow: auto;
+	}
+	
+	ul{
+		list-style-type:none;
+		padding:0px;
+		margin:0px;
+	}
+	
+	li a{
+		display:block;
+		padding:1em;
+		color:black;
+		margin:0px;
+		text-decoration:none;
+		
+	}
+	
+	li a:hover {
+		background-color: #555;
+		color: #979797;
+	}
+	
+	div{
+		Margin-top:25px;
+	}
+
+	header.update{
+		background:#737373;
+		color:black; 
+		margin-left:275px;
+		border:3px double #ff751a;
+	}
+	
+	div.update{
+		background:#959595;
+		color:black; 
+		margin-top:0px;
+		margin-left:275px;
+		border:3px double #ff751a;
+	}
+</style>
+</head>
+<body bgcolor="#ff751a">
+<nav>
+	<ul>
+		<li><a href="AboutMe.html">About</a></li>
+		<li><a href="#Thedos">Thedos</a></li>
+		<li><a href="#Arcas">Arcas</a></li>
+		<li><a href="#Cyrellia">Cyrellia</a></li>
+		<li><a href="Characters.html">Characters</a></li>
+		<li><audio controls> <source src="file:///C:/Users/Ethan/Downloads/Rick%20Astley%20-%20Never%20Gonna%20Give%20You%20Up.mp3" type="audio/mpeg"</audio></li>
+	</ul>
+</nav>
+
+<div id="Thedos">
+	<header class="update">
+		<h1>Thedos Piper (Marc)</h1>
+	</header>
+	<div class="update" style="height:2220px"> 
+		<p>New Dude</p>
+	</div>
+</div>
+
+<div id="Arcas">
+	<header class="update">
+		<h1>Arcas (Kai)</h1>
+	</header>
+	<div class="update" style="height:2220px"> 
+		<p>Beary McBearface</p>
+	</div>
+</div>
+
+<div id="Cyrellia">
+	<header class="update">
+		<h1>Cyrellia (Mckenna)</h1>
+	</header>
+	<div class="update" style="height:2220px"> 
+		<p>Buttlog</p>
+	</div>
+</div>
+
+</body>
+</html>
